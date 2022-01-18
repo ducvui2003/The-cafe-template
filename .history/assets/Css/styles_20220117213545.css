@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+1.Location
+2.Size 
+3.Color
+4.Styles
+*/
+
+html {
+    font-family: 'Inconsolata', monospace;
+}
+
+#main {}
+
+#header {
+    height: 55px;
+    background-color: black;
+}
+
+#header #nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#nav li {
+    display: inline-block;
+    text-align: center;
+    line-height: 55px;
+    margin: auto;
+}
+
+#nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#slides {}
+
+#content {}
+
+#footer {}

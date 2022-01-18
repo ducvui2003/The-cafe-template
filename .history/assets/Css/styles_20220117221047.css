@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* 
+1.Location
+2.Size 
+3.Color
+4.Styles
+*/
+
+html {
+    font-family: 'Inconsolata', monospace;
+}
+
+#main {}
+
+#header {
+    height: 54px;
+    background-color: black;
+}
+
+#header #nav {
+    text-align: center;
+    margin: 0 16px;
+}
+
+#nav li {
+    display: block;
+    line-height: 55px;
+    float: left;
+    width: 25%;
+}
+
+#nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 39px;
+    display: inline-block;
+    width: 100%;
+}
+
+#nav li a:hover {
+    color: black;
+    background-color: black;
+}
+
+#slides {}
+
+#content {}
+
+#footer {}

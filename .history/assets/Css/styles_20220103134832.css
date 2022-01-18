@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+1.Location
+2.Size 
+3.Color
+4.Styles
+*/
+
+#main {}
+
+#header {
+    height: 54;
+    width: 100%;
+    background-color: black;
+}
+
+#nav {}
+
+#slides {}
+
+#content {}
+
+#footer {}
