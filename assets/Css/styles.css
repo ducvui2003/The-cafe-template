@@ -120,6 +120,64 @@ html {
     color: white;
 }
 
-#content {}
+
+/* Content */
+
+#content {
+    position: relative;
+    height: 2000px;
+}
+
+#content .about-section {
+    position: absolute;
+    top: 0;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    margin-left: 282px;
+    margin-right: 282px;
+    margin-bottom: 18px;
+}
+
+.about-section .title {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin: 74px 0;
+    text-align: center;
+    padding: 0 10px;
+    background-clip: padding-box;
+    width: fit-content;
+    margin-inline: auto;
+    height: 27px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 2.5;
+    text-transform: uppercase;
+}
+
+.about-section .para {
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.6;
+    padding-bottom: 16px;
+}
+
+.about-section .quote {
+    background-color: #f1f1f1;
+    padding: 0 16px;
+    border-left: 6px solid #ccc;
+    padding-top: 16px;
+}
+
+.about-section .img-about {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.about-section .infor {
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+}
 
 #footer {}
