@@ -16,6 +16,12 @@
     background-color: black;
 }
 
+.img-content {
+    margin-top: 32px;
+    width: 100%;
+    filter: grayscale(50%);
+}
+
 
 /* 
 1.Location
@@ -124,13 +130,14 @@ html {
 /* Content */
 
 #content {
-    position: relative;
     height: 2000px;
 }
 
+
+/* About-section */
+
+#content .menu-section,
 #content .about-section {
-    position: absolute;
-    top: 0;
     /* left: 50%;
     transform: translateX(-50%); */
     margin-left: 282px;
@@ -138,11 +145,11 @@ html {
     margin-bottom: 18px;
 }
 
-.about-section .title {
+.menu-section h2,
+.about-section h2 {
     font-size: 20px;
     color: white;
     background-color: black;
-    margin: 74px 0;
     text-align: center;
     padding: 0 10px;
     background-clip: padding-box;
@@ -155,9 +162,12 @@ html {
     text-transform: uppercase;
 }
 
+.about-section h2 {
+    margin: 74px auto;
+}
+
 .about-section .para {
     font-size: 18px;
-    font-family: 'Inconsolata', monospace;
     line-height: 1.6;
     padding-bottom: 16px;
 }
@@ -169,15 +179,57 @@ html {
     padding-top: 16px;
 }
 
-.about-section .img-about {
-    margin-top: 16px;
-    width: 100%;
-}
-
 .about-section .infor {
     margin-top: 18px;
     font-size: 18px;
-    font-family: 'Inconsolata', monospace;
+}
+
+
+/* Menu-section */
+
+.menu-section {
+    font-size: 18px;
+}
+
+.menu-section h2 {
+    margin: 58px auto;
+}
+
+.menu-section .menu-list {}
+
+.menu-section .menu-opt {
+    display: flex;
+    padding: 8px 16px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 2px 5px 0px, rgb(0 0 0 / 12%) 0px 2px 10px 0px;
+}
+
+.menu-section .menu-opt p {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* .menu-section .menu-opt p:active {
+    color: white;
+    background-color: #757575;
+} */
+
+.menu-section .menu-discription {
+    box-shadow: rgb(0 0 0 / 16%) 0px 2px 5px 0px, rgb(0 0 0 / 12%) 0px 2px 10px 0px;
+    padding: 48px 16px;
+}
+
+.menu-section .menu-discription:nth-child(2) {
+    display: none;
+}
+
+.menu-discription .course-name {
+    padding-top: 10px 0;
+}
+
+.menu-discription .course-detail {
+    padding: 18px 0;
+    color: #757575;
 }
 
 #footer {}
